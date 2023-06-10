@@ -1,6 +1,60 @@
-.cat {
-  font-family: "Roboto", san-serif;
-  font-weight: 500;
-  font-size: 62px;
-  color: red;
+body {
+  font-family: roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  transition: background-color 500ms;
+  padding: 4px 8px;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: rgb(218, 218, 218);
+}
+
+.section {
+}
+
+.header {
+}
+
+.container {
+  max-width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav_text-logo {
+  margin-right: auto;
+}
+
+.list_nav {
+  display: flex;
+}
+
+.item_nav {
+}
+
+.nav_link {
+}
+
+.list_linkTo {
+  display: flex;
+  margin-left: auto;
+}
+
+.item_linkTo {
+}
+
+.linkTo_link {
 }
